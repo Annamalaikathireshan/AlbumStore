@@ -1,0 +1,19 @@
+.img{
+    background: url('https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Revival_Eminem_Cover.png/220px-Revival_Eminem_Cover.png') no-repeat;
+    height: 220px;
+    width: 220px;
+    padding-right: 5em;
+    padding-bottom: 7em;
+}
+.col-sm-2{
+    display: flex;
+}
+ul{
+    display: flex;
+}
+span{
+    padding-right: 2em;
+}
+.track-name{
+    padding-right: 20em;
+}
