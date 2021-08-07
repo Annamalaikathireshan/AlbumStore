@@ -1,12 +1,23 @@
 .img{
-    background: url('https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Revival_Eminem_Cover.png/220px-Revival_Eminem_Cover.png') no-repeat;
-    height: 220px;
-    width: 220px;
+    background: url('https://upload.wikimedia.org/wikipedia/en/5/51/Revival_Eminem_Cover.png') no-repeat;
+    height: 300px;
+    width: 300px;
     padding-right: 5em;
-    padding-bottom: 7em;
+    padding-bottom: 5em;
 }
 .col-sm-2{
     display: flex;
+}
+.album-name{
+    font-family: 'Hahmlet', serif;
+    font-size: 2em;
+}
+.band-name{
+    font-family: 'Style Script', cursive;
+    font-size: 2em;
+}
+.album-release-date{
+    font-family: 'STIX Two Text', serif;
 }
 ul{
     display: flex;
@@ -17,3 +28,17 @@ span{
 .track-name{
     padding-right: 20em;
 }
+table {
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  .header{
+    font-family: arial, sans-serif;
+  }

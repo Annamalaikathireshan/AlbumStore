@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ChangesComponent } from './changes/changes.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FatherOfAsahdComponent } from './father-of-asahd/father-of-asahd.component';
+import { IcarusFallsComponent } from './icarus-falls/icarus-falls.component';
+import { NavarasaComponent } from './navarasa/navarasa.component';
 import { RevivalComponent } from './revival/revival.component';
 
 const routes: Routes = [
@@ -16,6 +19,18 @@ const routes: Routes = [
   {
     path: 'revival',
     component: RevivalComponent
+  },
+  {
+    path: 'Icarus-Falls',
+    component: IcarusFallsComponent
+  },
+  {
+    path: 'Changes',
+    component: ChangesComponent
+  },
+  {
+    path: 'Navarasa',
+    component: NavarasaComponent
   }
 ];
 

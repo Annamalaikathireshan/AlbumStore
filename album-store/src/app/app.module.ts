@@ -6,13 +6,21 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FatherOfAsahdComponent } from './father-of-asahd/father-of-asahd.component';
 import { RevivalComponent } from './revival/revival.component';
+import { IcarusFallsComponent } from './icarus-falls/icarus-falls.component';
+import { ChangesComponent } from './changes/changes.component';
+import { GangLeaderComponent } from './gang-leader/gang-leader.component';
+import { NavarasaComponent } from './navarasa/navarasa.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     FatherOfAsahdComponent,
-    RevivalComponent
+    RevivalComponent,
+    IcarusFallsComponent,
+    ChangesComponent,
+    GangLeaderComponent,
+    NavarasaComponent
   ],
   imports: [
     BrowserModule,
