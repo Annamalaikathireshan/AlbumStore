@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ChangesComponent } from './changes/changes.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FatherOfAsahdComponent } from './father-of-asahd/father-of-asahd.component';
+import { GangLeaderComponent } from './gang-leader/gang-leader.component';
 import { IcarusFallsComponent } from './icarus-falls/icarus-falls.component';
 import { NavarasaComponent } from './navarasa/navarasa.component';
 import { RevivalComponent } from './revival/revival.component';
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path: 'Navarasa',
     component: NavarasaComponent
+  },
+  {
+    path: 'Gang-leader',
+    component: GangLeaderComponent
   }
 ];
 
