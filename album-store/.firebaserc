@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "album-store-a05be"
+  },
+  "targets": {
+    "album-store-a05be": {
+      "hosting": {
+        "album-store": [
+          "album-store-a05be"
+        ]
+      }
+    }
   }
 }
